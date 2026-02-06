@@ -10,18 +10,17 @@ Dabei übst du Gradle Tasks, Dateiverarbeitung und Groovy-Closures.
 Erstelle folgende Ordner und Dateien:
 
 ## 📁 Projektstruktur
-
 Dein Projekt soll am Ende folgende Struktur haben:
 
-markdown-to-html/
-├── build.gradle
-├── settings.gradle
-├── src/
-│ └── main/
-│ └── groovy/
-│ └── MarkdownConverter.groovy
-├── input/
-│ └── example.md
+markdown-to-html/  
+├── build.gradle  
+├── settings.gradle  
+├── src/  
+│ └── main/  
+│ └── groovy/  
+│ └── MarkdownConverter.groovy  
+├── input/  
+│ └── example.md  
 └── output/
 
 ---
@@ -31,7 +30,7 @@ Lege ein neues Verzeichnis an und erstelle eine `settings.gradle` mit dem Projek
 
 ---
 
-## Schritt 2: Gradle konfigurieren
+## Schritt 2: Gradle Datei überprüfen
 In `build.gradle`:
 - nutze das `groovy`-Plugin
 - verwende `mavenCentral()`
@@ -61,8 +60,6 @@ gradle markdownToHtml
 Der Task liest alle .md Dateien und erzeugt .html Dateien im Ordner output/.
 
 ## Bonus (optional)
-
-Leere Zeilen ignorieren
-### als <h3> unterstützen
-
-Mehrere Markdown-Dateien verarbeiten
+- Leere Zeilen ignorieren
+- \### als <h3> unterstützen
+- Mehrere Markdown-Dateien verarbeiten
