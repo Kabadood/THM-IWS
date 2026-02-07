@@ -22,6 +22,7 @@ static void main(String[] args) {
     ]
 
     // TODO: rufe beide Methoden auf und geben sie mit passenden Überschriften aus. Achte auf den DSL-Style. 
+    //
 
 }
 
